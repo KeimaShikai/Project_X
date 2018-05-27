@@ -4,5 +4,8 @@ CMakeCache.txt
 Makefile
 cmake_install.cmake
 
+#vscode_files
+.vscode
+
 #exe
 px

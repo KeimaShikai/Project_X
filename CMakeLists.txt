@@ -5,7 +5,8 @@ project(X)
 list (APPEND X_HEADERS "src/headers")
 
 #src
-list (APPEND X_SOURCES "src/headers/main.h")
+list (APPEND X_SOURCES "src/headers/CMain.h")
+list (APPEND X_SOURCES "src/sources/CMain.cpp")
 list (APPEND X_SOURCES "src/sources/main.cpp")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${X_SOURCE_DIR}/scripts")
