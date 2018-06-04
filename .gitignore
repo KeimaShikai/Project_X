@@ -4,6 +4,10 @@ CMakeCache.txt
 Makefile
 cmake_install.cmake
 
+#for windows
+build/
+CMakeLists.txt.user
+
 #vscode_files
 .vscode
 

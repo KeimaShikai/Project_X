@@ -9,6 +9,12 @@ list (APPEND X_SOURCES "src/headers/CMain.h")
 list (APPEND X_SOURCES "src/sources/CMain.cpp")
 list (APPEND X_SOURCES "src/sources/main.cpp")
 
+#for windows
+set(SDL2_PATH "E:\\C++_prj\\c++libs")
+set(SDL2_IMAGE_PATH "E:\\C++_prj\\c++libs")
+set(SDL2_MIXER_PATH "E:\\C++_prj\\c++libs")
+set(SDL2_TTF_PATH "E:\\C++_prj\\c++libs")
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${X_SOURCE_DIR}/scripts")
 
 find_package(SDL2 REQUIRED)
