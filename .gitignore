@@ -1,8 +1,9 @@
-#cmake_files
+#cmake_build_files
 CMakeFiles/
 CMakeCache.txt
 Makefile
 cmake_install.cmake
+_result/**
 
 #for windows
 build/
